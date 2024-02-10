@@ -21,3 +21,7 @@ let score = null
 let convertedScore = Number(score);
 console.log(typeof convertedScore);
 console.log(convertedScore);
+
+let isLoggedIn = "";
+let booleanIsLoggedIn = Boolean(name);
+console.log(booleanIsLoggedIn);
