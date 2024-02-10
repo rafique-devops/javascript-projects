@@ -27,10 +27,17 @@ let booleanIsLoggedIn = Boolean(name);
 // console.log(booleanIsLoggedIn);
 
 let firstNumber = 100;
-console.log("Before Increment",firstNumber);
+// console.log("Before Increment",firstNumber);
 let incremenetNumber = ++firstNumber
-console.log("After Increment",firstNumber)
-console.log("After Increment Number",incremenetNumber);
+// console.log("After Increment",firstNumber)
+// console.log("After Increment Number",incremenetNumber);
 
 let anotherIncrement = --incremenetNumber
-console.log("After Another Increment",anotherIncrement)
+// console.log("After Another Increment",anotherIncrement)
+
+//while doing comparison always keep in mind about below kind of conversion
+// console.log(null > 0);
+// console.log(null == 0);
+// console.log(null >= 0);
+// console.log(undefined == 0);
+
