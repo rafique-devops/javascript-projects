@@ -60,3 +60,40 @@ function userLoggedOut(username = "Devs")
 console.log(loginUser("Rafique"));
 // console.log(userLoggedOut("Rafique"));
 console.log(userLoggedOut());
+
+console.log(`------------Function with Object & Arrays-------`);
+
+function calculateCartValue(...price)
+{
+    return price;
+}
+
+console.log(calculateCartValue(500,200,300,10,10));
+
+const user = {
+    username: "rafique",
+    products: "Shampoo",
+    price:199
+}
+
+function getProductPrice(anyObjects)
+{
+    console.log(`Cart for: ${anyObjects.username}`);
+    return `Product: ${anyObjects.products} & Price: ${anyObjects.price}`
+}
+
+console.log(getProductPrice(user)); //we can either pass the object reference
+console.log(getProductPrice({ //or directly pass complete objects
+    username: "sankalp",
+    products:"conditioner",
+    price:299
+}));
+
+const myArray = [200,400,500,600,800]
+
+function returnArray(getArray)
+{
+    return getArray[1]
+}
+
+console.log(returnArray(myArray));
