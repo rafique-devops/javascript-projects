@@ -49,4 +49,4 @@ const addTwo = function(num) //here it's not possible because we are storing the
     return num + 2
 }
 
-console.log(addTwo(12));;
+console.log(addTwo(12));
