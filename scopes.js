@@ -37,6 +37,8 @@ if(true)
 
  //we can use the function even before declaring it
 console.log(addOne(10));
+
+
  function addOne(num)
 {
     return num + 1
