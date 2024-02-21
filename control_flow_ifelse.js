@@ -40,3 +40,25 @@ else
 {
     console.log(`balance greater than 900`);
 }
+
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = false
+
+if(userLoggedIn && debitCard)
+{
+    console.log(`User Logged In & have valid debit card`);
+    if(loggedInFromEmail || loggedInFromGoogle)
+    {
+        console.log(`user logged in using credentials`);
+    }
+    else
+    {
+        console.log(`please check your credentials`);
+    }
+}
+else
+{
+    console.log(`user unathorized`);
+}
