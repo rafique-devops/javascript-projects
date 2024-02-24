@@ -78,4 +78,4 @@ for (const key in myCoding) {
 
 for (const key of myCoding) {
     console.log(key);
-}
+} 

@@ -1,0 +1,30 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.canva {
+    display: flex; /* Arrange boxes in a row */
+    justify-content: center; /* Center boxes horizontally  */
+    gap: 15px; /* Add space between boxes */
+    margin-top: 20px;
+}
+
+/* Individual Box Styles */
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; /* Slightly round the corners */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    border-color: black;
+    border-style: dotted;
+}
+
+/* Specific Color Styles */
+#red { background-color: red; }
+#black { background-color: black; }
+#blue { background-color: blue; }
+#pink { background-color: pink; }
+#purple { background-color: purple; }

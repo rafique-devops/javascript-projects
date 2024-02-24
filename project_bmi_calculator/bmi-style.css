@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #F8F4F1; /* Soft, light background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    min-height: 100vh; /* Ensure content fills viewport height */
+}
+
+/* Container Styles */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Form Styles */
+form p {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007BFF; /* Blue accent */
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-size: 15px; 
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#weight-guide {
+    margin-top: 30px;
+}
+
+#weight-guide p { 
+    margin-bottom: 5px;
+}
