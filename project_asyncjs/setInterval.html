@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Javascript Projects</title>
+</head>
+<body>
+    <h1>Set Interval Javascript Project</h1><br><br>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    let intervalId;
+    const sayDate = (str)=> {
+        console.log(str, Date.now());
+    }
+    document.querySelector('#start').addEventListener('click',()=>{
+        intervalId = setInterval(sayDate,2000,"Hi Rafique");
+        console.log('Printing Started');
+    })
+    
+    document.querySelector('#stop').addEventListener('click',()=> {
+        clearInterval(intervalId)
+        intervalId = null;
+        console.log('Printing Stopped');
+    })
+
+</script>
+</html>
