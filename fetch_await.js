@@ -1,13 +1,15 @@
-async function getAllUsers(){
-    try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users')
-        const data = await response.json()
-        // console.log(data);
-    } catch (error) {
-        console.log(error);
-    }
-}
-getAllUsers();
+const { default: axios } = require("axios");
+
+// async function getAllUsers(){
+//     try {
+//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
+//         const data = await response.json()
+//         // console.log(data);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+// getAllUsers();
 
 console.log(`----------------Another Method-----------------`);
 fetch('https://api.github.com/users/rafique-devops')
@@ -19,5 +21,14 @@ fetch('https://api.github.com/users/rafique-devops')
 })
 
 .catch((error)=> {
+    console.log(error);
+})
+
+
+axios('https://jsonplaceholder.typicode.com/users')
+.then((data)=>{
+    console.log(data);
+})
+.catch((error)=>{
     console.log(error);
 })
