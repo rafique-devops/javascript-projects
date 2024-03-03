@@ -17,7 +17,7 @@ function User(username,loginCount,isLoggedIn) {
     this.loginCount = loginCount;
     this.isLoggedIn = isLoggedIn;
 
-    // return this;
+    // return this; //return is not required if we are using new keyword
 }
 
 const userOne = new User("Rahul",9,true); //using new keyword will create a new instance of that object
